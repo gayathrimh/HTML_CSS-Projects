@@ -80,10 +80,16 @@ This is simple html web page that displays calendar for the year 2026 This proje
                </tr>
            </table>
     </div>
-    <div>
-        <a>Previous</a>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="02.html">Next</a>
-        </div>
     </body>
     </html>
- ```
+     ```
+5. Add corresponding files for February 2026 to December 2026 (02.html-12.html)
+6. Copy code from Step 4 and add it to all new files created 
+7. Edit the table contents as per the Calendar of 2026
+8. Add Previous and Next to each of the html files. The code is as follows:
+    ```
+        <div>
+        <a>Previous</a>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a>Next</a>
+        </div>
+    ```
