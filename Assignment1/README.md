@@ -93,3 +93,27 @@ This is simple html web page that displays calendar for the year 2026 This proje
         <a>Next</a>
         </div>
     ```
+    **
+    The above piece of code should be added between </div>  of the table and </body>
+    **
+
+9. Linking all the pages from 1 to 12. We need to add href attribute for <a> tag as follows:
+    ```
+    <div>
+        <a>Previous</a>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="02.html">Next</a>
+    </div>
+    ```
+
+10. Repeat the linking of pages 2-12.
+    - 02.html file should have 01.html for previous and 03.html for next
+    - 03.html file should have 02.html for previous and 04.html for next
+    - 04.html file should have 03.html for previous and 05.html for next
+    - 05.html file should have 04.html for previous and 06.html for next
+    - 06.html file should have 05.html for previous and 07.html for next
+    - 07.html file should have 06.html for previous and 08.html for next
+    - 08.html file should have 07.html for previous and 09.html for next
+    - 09.html file should have 08.html for previous and 10.html for next
+    - 10.html file should have 09.html for previous and 11.html for next
+    - 11.html file should have 10.html for previous and 12.html for next
+    - 12.html file should have 11.html for previous
