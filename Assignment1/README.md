@@ -85,5 +85,5 @@ This is simple html web page that displays calendar for the year 2026 This proje
         <a href="02.html">Next</a>
         </div>
     </body>
-</html>
+    </html>
  ```
