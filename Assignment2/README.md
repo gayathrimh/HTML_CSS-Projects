@@ -318,3 +318,22 @@ This is simple html web page that displays Chessboard. This project has 2 differ
       </body>
     </html>
     ```
+6. The black background prevents the chesspieces from being displayed. Hence we need to change background-color from black to gray.
+    - Click on edit from menubar 
+    - Click on replace 
+    - In the replace pop-up the first input should be black and then second input should be gray
+    - Click on replace all
+7. Add css styling for <td> tag. These lines of code should be enclosed within <head> tag. The code is as follows
+    ```
+    <head>
+        <title>Chessboard</title>
+        <style>
+            td{
+                font-size:40px;
+                height:60px;
+                width:60px;
+                text-align:center;
+            }
+        </style>
+    </head>
+    ```
