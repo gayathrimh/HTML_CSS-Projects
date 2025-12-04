@@ -1,9 +1,8 @@
 ### Chessboard 
-```
 This is simple html web page that displays Chessboard. This project has 2 different files:
 1. chessboard1.html - This file represents the basic structure of a chessboard without any of the chess pieces.
 2. chessboard2.html - This file represents the basic structure of a chessboard with all of the chess pieces.
-```
+
 ### Technologies used
 - HTML: Markup structure
 - CSS: Provides styling
