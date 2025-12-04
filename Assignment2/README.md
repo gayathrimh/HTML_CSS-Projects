@@ -322,6 +322,7 @@ This is simple html web page that displays Chessboard. This project has 2 differ
     - Click on edit from menubar 
     - Click on replace 
     - In the replace pop-up the first input should be black and then second input should be gray
+    <img width="627" height="97" alt="image" src="https://github.com/user-attachments/assets/b64c158d-b261-43d3-91af-cf8488954bab"/>
     - Click on replace all
 7. Add css styling for <td> tag. These lines of code should be enclosed within <head> tag. The code is as follows
     ```
