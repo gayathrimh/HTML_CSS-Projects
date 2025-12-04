@@ -1,7 +1,7 @@
 ### Chessboard 
 This is simple html web page that displays Chessboard. This project has 2 different files:
-1.chessboard1.html - This file represents the basic structure of a chessboard without any of the chesspieces.
-2.chessboard2.html - This file represents the basic structure of a chessboard with all of the chesspieces.
+1.chessboard1.html - This file represents the basic structure of a chessboard without any of the chess pieces.
+2.chessboard2.html - This file represents the basic structure of a chessboard with all of the chess pieces.
 
 ### Technologies used
 - HTML: Markup structure
@@ -12,7 +12,7 @@ This is simple html web page that displays Chessboard. This project has 2 differ
 
 ### Steps
 1. Create a subfolder called Assignment2 in HTML_CSS PROJECTS
-2. Create a file chessboard1.html and add following code
+2. Create a file chessboard1.html and add following code:
     ```
     <!DOCTYPE html>
     <html>
@@ -113,12 +113,12 @@ This is simple html web page that displays Chessboard. This project has 2 differ
       </body>
     </html>
     ```
-3. In order to align the text and table, replace <h1> tag and <table> tag by adding following to the    code:
+3. In order to align the text and table, replace `<h1>` and `<table>` tags by adding the following code:
     ```
         <h1 align="center">Basic Chessboard</h1>
         <table border="1" cellspacing="0" cellpadding="25" align="center">
     ```
-4. Create another html file called chessboard2.html and add following set of codes:
+4. Create another html file called chessboard2.html and add the following code:
     ```
     <!DOCTYPE html>
     <html>
@@ -219,7 +219,7 @@ This is simple html web page that displays Chessboard. This project has 2 differ
       </body>
     </html>
     ```
-5. Add unicode for chesspieces in the code as follows:
+5. Add Unicode for chess pieces in the code as follows:
     ```
     <!DOCTYPE html>
     <html>
@@ -318,12 +318,12 @@ This is simple html web page that displays Chessboard. This project has 2 differ
       </body>
     </html>
     ```
-6. The black background prevents the chesspieces from being displayed. Hence we need to change background-color from black to gray.
-    - Click on edit from menubar 
-    - Click on replace 
-    - In the replace pop-up the first input should be black and then second input should be gray
+6. The black background prevents the chess pieces from being displayed. Hence we need to change background-color from black to gray.
+    - Click on edit from Menu bar. 
+    - Click on Replace option or `Ctrl+H`.
+    - In the Replace pop-up, the first input should be black and then second input should be gray.
     <img width="627" height="97" alt="image" src="https://github.com/user-attachments/assets/b64c158d-b261-43d3-91af-cf8488954bab"/>
-    - Click on replace all
+    - Click on Replace All option in the pop-up.
 7. Add css styling for `<td>` tag. These lines of code should be enclosed within `<head>` tag. The code is as follows:
     ```
     <head>
