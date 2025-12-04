@@ -322,8 +322,10 @@ This is simple html web page that displays Chessboard. This project has 2 differ
     - Click on edit from Menu bar. 
     - Click on Replace option or `Ctrl+H`.
     - In the Replace pop-up, the first input should be black and then second input should be gray.
-    <img width="627" height="97" alt="image" src="https://github.com/user-attachments/assets/b64c158d-b261-43d3-91af-cf8488954bab"/>
+      <img width="627" height="97" alt="image" src="https://github.com/user-attachments/assets/b64c158d-b261-43d3-91af-cf8488954bab"/>
     - Click on Replace All option in the pop-up.
+      <img width="757" height="118" alt="image" src="https://github.com/user-attachments/assets/25a701fc-f7fc-4741-ac65-9ff541249368" />
+
 7. Add css styling for `<td>` tag. These lines of code should be enclosed within `<head>` tag. The code is as follows:
     ```
     <head>
