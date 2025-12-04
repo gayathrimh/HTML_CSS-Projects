@@ -113,3 +113,208 @@ This is simple html web page that displays Chessboard. This project has 2 differ
       </body>
     </html>
     ```
+3. In order to align the text and table, replace <h1> tag and <table> tag by adding following to the    code:
+    ```
+        <h1 align="center">Basic Chessboard</h1>
+        <table border="1" cellspacing="0" cellpadding="25" align="center">
+    ```
+4. Create another html file called chessboard2.html and add following set of codes:
+    ```
+    <!DOCTYPE html>
+    <html>
+        <head>
+         <title>
+            Chessboard
+          </title>
+        </head>
+        <body>
+          <h1 align="center">Gameboard</h1>
+          <table align="center" border="1" cellspacing="0" cellpadding="25">
+            
+            <tr>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+            </tr>
+            <tr>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+
+            </tr>
+            <tr>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+            </tr>
+            <tr>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+
+            </tr>
+            <tr>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+            </tr>
+            <tr>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+
+            </tr>
+            <tr>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+            </tr>
+            <tr>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+
+            </tr>
+          </table>
+      </body>
+    </html>
+    ```
+5. Add unicode for chesspieces in the code as follows:
+    ```
+    <!DOCTYPE html>
+    <html>
+        <head>
+         <title>
+            Chessboard
+          </title>
+        </head>
+        <body>
+          <h1 align="center">Gameboard</h1>
+          <table align="center" border="1" cellspacing="0" cellpadding="25">
+            
+            <tr>
+                <td style="background-color:black">&#9820</td>
+                <td style="background-color:white">&#9822</td>
+                <td style="background-color:black">&#9821</td>
+                <td style="background-color:white">&#9818</td>
+                <td style="background-color:black">&#9819</td>
+                <td style="background-color:white">&#9821</td>
+                <td style="background-color:black">&#9822</td>
+                <td style="background-color:white">&#9820</td>
+            </tr>
+            <tr>
+                <td style="background-color:white">&#9823</td>
+                <td style="background-color:black">&#9823</td>
+                <td style="background-color:white">&#9823</td>
+                <td style="background-color:black">&#9823</td>
+                <td style="background-color:white">&#9823</td>
+                <td style="background-color:black">&#9823</td>
+                <td style="background-color:white">&#9823</td>
+                <td style="background-color:black">&#9823</td>
+            </tr>
+            <tr>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+            </tr>
+            <tr>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+
+            </tr>
+            <tr>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+            </tr>
+            <tr>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+                <td style="background-color : white"></td>
+                <td style="background-color : black"></td>
+
+            </tr>
+            <tr>
+                <td style="background-color:black">&#9817</td>
+                <td style="background-color:white">&#9817</td>
+                <td style="background-color:black">&#9817</td>
+                <td style="background-color:white">&#9817</td>
+                <td style="background-color:black">&#9817</td>
+                <td style="background-color:white">&#9817</td>
+                <td style="background-color:black">&#9817</td>
+                <td style="background-color:white">&#9817</td>
+            </tr>
+            <tr>
+                <td style="background-color:white">&#9814</td>
+                <td style="background-color:black">&#9816</td>
+                <td style="background-color:white">&#9815</td>
+                <td style="background-color:black">&#9812</td>
+                <td style="background-color:white">&#9813</td>
+                <td style="background-color:black">&#9815</td>
+                <td style="background-color:white">&#9816</td>
+                <td style="background-color:black">&#9814</td>
+            </tr>
+          </table>
+      </body>
+    </html>
+    ```
